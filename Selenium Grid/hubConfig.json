@@ -1,0 +1,14 @@
+{
+  "_comment" : "Configuration for Hub - hubConfig.json",
+  "host": "10.0.220.49",
+  "maxSessions": 7,
+  "port": 4444,
+  "cleanupCycle": 5000,
+  "timeout": 300000,
+  "newSessionWaitTimeout": -1,
+  "servlets": [],
+  "prioritizer": null,
+  "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+  "throwOnCapabilityNotPresent": true,
+  "nodePolling": 2000	
+}

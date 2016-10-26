@@ -1,0 +1,5 @@
+// Command for Hub
+java -jar selenium-server-standalone-2.53.0.jar -role hub -hubConfig hubConfig.json
+
+// Command for Node
+java -jar selenium-server-standalone-2.53.0.jar -role node -nodeConfig nodeconfig.json

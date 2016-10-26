@@ -1,0 +1,15 @@
+how to find running selenium / java process in Linux
+
+ps ax | grep java
+
+How to Stop 
+
+kill (PID)
+
+How to start Hub / Node 
+
+java -jar selenium-server-standalone-2.53.0.jar -role hub -hubConfig hubconfig.json
+
+
+
+
